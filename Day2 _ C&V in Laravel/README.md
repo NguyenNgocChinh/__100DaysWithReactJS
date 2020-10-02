@@ -33,6 +33,14 @@
         		{{ $phantu }}
         	@endif
     	@endforeach
+	
+	| Property      | Description   |
+	| ------------- |:-------------:|
+	| $loop->index  | Vị trí hiện tại khi đang lặp |
+	| $loop->first  | Vị trí đầu tiên của vòng lặp |
+	| $loop->last   | Vị trí cuối cùng của vòng lặp|
+	| $loop->even   | Vị trí chẵn của vòng lặp     |
+	| $loop->odd    | Vị trí lẻ của vòng lặp       |
 
 * Kế Thừa từ 1 blade template khác:
 
