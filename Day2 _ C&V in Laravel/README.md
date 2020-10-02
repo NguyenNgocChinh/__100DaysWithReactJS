@@ -23,14 +23,14 @@
 
 		@for($i = 0; $i < 10; $i++)
         	@if($i%2 ==0)
-        	<p>Cau : {{ $i }}</p>
+        		<p>Cau : {{ $i }}</p>
         	@endif
     	@endfor
 * Foreach:
 
 		@foreach($arr as $phantu)
         	@if($loop->odd)
-        	{{ $phantu }}
+        		{{ $phantu }}
         	@endif
     	@endforeach
 
