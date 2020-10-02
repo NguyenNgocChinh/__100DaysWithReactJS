@@ -21,30 +21,4 @@
 * Định dạng màu nền ( Background )
 	class = " bg-success" : trong đó success là các màu như danger,secondary,....
 
-## ReactJS
-* Tạo project mới
-	npx create-react-app TênProject
-* Props viết tắt của properties có nghĩa là các thuộc tính của Component
-	<Welcome name="Sara" />	- { this.props.name }
-	<Welcome> Sara </Welcome>	- { this.props.children }
-* State là các trạng thái của Component
-	- Khởi tạo State ở ES6 phải ở trong constructor()
-		constructor(props) {
-   		super(props);
-    		this.state = {date: new Date()};
-  		}
-	- Gọi State : { this.state.date }
-	- Set lại State: 
-		this.setState({
-     			date: new Date()
-    		});
-* Cú pháp khai báo 1 Component là: 
-	class Tên Component extends React.Component { 
-		render(){
-			return <> </> ;
-		}
-	}
-
-# LINK Docs: https://reactjs.org/docs/hello-world.html
-
 
