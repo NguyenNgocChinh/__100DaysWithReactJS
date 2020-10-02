@@ -11,7 +11,7 @@
 	Route : routes > web.php
 
 ## Blade
-	# Hiển thị biến == echo trong PHP
+	Hiển thị biến == echo trong PHP
 		Hello, {{  $name }}	- Với biến không có chứa các thẻ HTML
 		Hello, {!! $name !!}	- Với biến có chứa các thẻ HTML
 	 IF clause
