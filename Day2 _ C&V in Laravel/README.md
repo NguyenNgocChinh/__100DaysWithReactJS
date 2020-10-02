@@ -1,4 +1,4 @@
-# LARAVEL
+# LARAVEL + BLADE Template
 
 ## MVC:
 * M: Model -> Đảm nhiệm nhiệm vụ làm việc với database.
@@ -10,7 +10,7 @@
 * Model : app > Model
 * Route : routes > web.php
 
-# Blade Template:
+## Blade Template:
 * Hiển thị biến == echo trong PHP:
 	- Hello, {{  $name }}	- Với biến không có chứa các thẻ HTML
 	- Hello, {!! $name !!}	- Với biến có chứa các thẻ HTML
